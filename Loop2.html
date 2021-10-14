@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    for (let i = 0; i < 5; i++) {
+        if (i === 3) {
+            continue
+        }
+        document.write(i + "<br>")
+    }
+
+    document.write("<hr>")
+    for (let i = 0; i < 5; i++) {
+        if (i === 3) {
+            break
+        }
+        document.write(i + "<br>")
+    }
+
+    document.write("<hr>")
+    let i = 0
+    while (i < 5) {
+        document.write(i + "<br>")
+        i++
+        if (i === 3) {
+            break
+        }
+    }
+
+    document.write("<hr>")
+    let j = 0
+    while (j < 5) {
+        j++
+        if (j === 3) {
+            continue
+        }
+        document.write(j + "<br>")
+    }
+</script>
+</body>
+</html>

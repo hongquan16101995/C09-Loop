@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  //dùng for thủ công
+  // for (let i = 2; i <= 40; i = i + 2) {
+  //   document.write(i + "<br>")
+  // }
+
+  //cách chuẩn, dùng % 2
+  let count = 0
+  let countSL = prompt("Nhập vào số lượng số bạn muốn in: ")
+  let number = 1
+  while (count < countSL) {
+    if (number % 2 === 0) {
+      count++
+      document.write(number + "<br>")
+    }
+    number++
+  }
+</script>
+</body>
+</html>
